@@ -1,3 +1,13 @@
+背景说明
+=======
+快速的设置手机的proxy
+
+这个app没有apk可以下载，所以只能自己build
+
+我把build好的apk，也放出来了，万一以后要用
+
+
+
 ### build 一个android项目
 
 git@github.com:iwmobileapplab/Androxy.git
