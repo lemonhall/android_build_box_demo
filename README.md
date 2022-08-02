@@ -6,8 +6,15 @@
 
 我把build好的apk，也放出来了，万一以后要用
 
+![image](https://user-images.githubusercontent.com/637919/182494917-462c87c8-a417-4a13-805c-8a3413ce264b.png)
+
+![image](https://user-images.githubusercontent.com/637919/182494929-4ea9fa85-eac9-4c86-84f1-5ae2896bed2f.png)
+
+![image](https://user-images.githubusercontent.com/637919/182494940-2eef91bd-d630-48fb-a171-a1e9f8b908ee.png)
 
 
+具体步骤
+=======
 ### build 一个android项目
 
 git@github.com:iwmobileapplab/Androxy.git
