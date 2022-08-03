@@ -175,6 +175,8 @@ export https_proxy='https://xxxx:13128'
 ### 可以访问cache的方式
 docker run --rm -v `pwd`:/project  -v "$HOME/.dockercache/gradle":"/root/.gradle"   mingc/android-build-box bash -c 'cd /project; ./gradlew build'
 
+build失败了的话，最好不要有cache了，用下面这个
+
 docker run --rm -v `pwd`:/project --env HTTP_PROXY="http://192.168.50.232:13128" --env HTTPS_PROXY="https://192.168.50.232:13128"  mingc/android-build-box bash -c 'cd /project; ./gradlew build'
 
 
@@ -217,6 +219,12 @@ brew install --cask  android-platform-tools
 ### usb连接手机
 https://blog.csdn.net/ckckjsws/article/details/123849295
 参考这个
+![image](https://user-images.githubusercontent.com/637919/182496434-2a3ce194-ccbf-49c2-98e6-eb0ea30ed48e.png)
+点个7下
+![image](https://user-images.githubusercontent.com/637919/182496470-ed0a4d8c-caf9-444d-a1fa-9ec68f4fd152.png)
+开发人员选项，usb调试
+![image](https://user-images.githubusercontent.com/637919/182496487-6a3bd732-95db-441f-96ba-dad30e49b3bb.png)
+USB调试，MTP
 
 adb devices
 用这个验证好有设备了
